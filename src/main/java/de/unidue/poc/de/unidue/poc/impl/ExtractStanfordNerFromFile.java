@@ -16,7 +16,7 @@ public class ExtractStanfordNerFromFile implements ExtractNerFromFile {
     @SuppressWarnings("all")
     private static String DEWAC = ExtractStanfordNerFromFile.class.getClassLoader().getResource("classifiers/edu/stanford/nlp/models/ner/german.dewac_175m_600.crf.ser.gz").getPath();
     @SuppressWarnings("all")
-    private static String HGC = ExtractStanfordNerFromFile.class.getClassLoader().getResource("classifiers/edu/stanford/nlp/models/ner/german.dewac_175m_600.crf.ser.gz").getPath();
+    private static String HGC = ExtractStanfordNerFromFile.class.getClassLoader().getResource("classifiers/edu/stanford/nlp/models/ner/german.hgc_175m_600.crf.ser.gz").getPath();
 
     private final String classificatorName;
 
